@@ -1,3 +1,16 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
+enableEmoji = true
+PygmentsCodeFences = true
+PygmentsStyle = "dracula"
+
+[menu]
+
+  [[menu.main]]
+    name = "about hugo"
+    url = "/about/"
+
+  [[menu.main]]
+    name = "getting started"
+    url = "/getting-started/"

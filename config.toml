@@ -1,16 +1,17 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://insomdev.my.id/"
+languageCode = "id-ID"
+title = "insomdev"
 enableEmoji = true
 PygmentsCodeFences = true
-PygmentsStyle = "dracula"
+PygmentsStyle = "monokai"
+Paginate = 2
 
 [menu]
 
   [[menu.main]]
-    name = "about hugo"
+    name = "about"
     url = "/about/"
 
   [[menu.main]]
-    name = "getting started"
+    name = "github"
     url = "/getting-started/"

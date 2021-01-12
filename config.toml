@@ -1,10 +1,11 @@
 baseURL = "https://insomdev.my.id/"
 languageCode = "id-ID"
-title = "insomdev"
+title = "InsomDev"
 enableEmoji = true
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
-Paginate = 2
+# Paginate = 2
+summaryLength = 5
 
 [menu]
 
@@ -14,4 +15,4 @@ Paginate = 2
 
   [[menu.main]]
     name = "github"
-    url = "/getting-started/"
+    url = "http://github.com/bramaudi"

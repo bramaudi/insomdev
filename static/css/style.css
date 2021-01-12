@@ -37,6 +37,9 @@ header {
   border-top: .5rem solid #7f4a24;
   border-bottom: 2px dashed #222;
 }
+header > a {
+  text-decoration: none;
+}
 header img {
   margin: -1rem .3rem -1rem 0;
   width: 2rem;
@@ -118,6 +121,13 @@ pre {
   border: .2rem solid #7f4a24;
 }
 
+:not(pre) > code {
+  padding: .1rem .3rem;
+  border-radius: .3rem;
+  background: #f0f0f0;
+  border: .1rem solid #aaaaaa;
+}
+
 hr {
   margin: 1rem 0;
 }
@@ -149,11 +159,11 @@ tr:nth-child(even) {
 
 .sub {
   padding: 1rem 0;
-  margin: 0 1rem -1rem;
+  margin: -1rem 1rem 0;
 }
 .sub h3 {
   border-left: .3rem solid #7f4a24;
-  padding: 0 .4rem;
+  padding: 0 .8rem;
   margin: 0;
 }
 

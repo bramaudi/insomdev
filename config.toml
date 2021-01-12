@@ -7,6 +7,9 @@ PygmentsStyle = "monokai"
 # Paginate = 2
 summaryLength = 5
 
+[params]
+  description = "Blog yang menyajikan artikel seputar pemgrograman."
+
 [menu]
 
   [[menu.main]]

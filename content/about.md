@@ -1,6 +1,6 @@
 ---
 title: "Tentang"
-description: "Blog yang menyajikan artikel seputar pemgrograman."
+summary: "Blog yang menyajikan artikel seputar pemgrograman."
 date: 2019-04-19T21:37:58+05:30
 ---
 

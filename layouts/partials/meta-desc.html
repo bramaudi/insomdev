@@ -1,4 +1,4 @@
-<meta name="description" content="{{ .Params.summary }}" />
-<meta itemprop="description" content="{{ .Params.summary }}" />
-<meta property="og:description" content="{{ .Params.summary }}" />
-<meta name="twitter:description" content="{{ .Params.summary }}" />
+<meta name="description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+<meta itemprop="description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+<meta property="og:description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+<meta name="twitter:description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else }}{{ .Site.Params.description }}{{ end }}" />

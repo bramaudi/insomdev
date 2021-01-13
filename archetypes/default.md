@@ -1,7 +1,7 @@
 ---
-title = "{{ replace .Name "-" " " | title }}"
-date = {{ .Date }}
-summary = ""
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
+summary: ""
 author: "bramaudi"
 tags: [vue]
 ---

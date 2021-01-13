@@ -44,7 +44,7 @@ npm i -D @babel/core @babel/plugin-transform-react-jsx
 
 ## Membuat Struktur
 
-Oke, mari kita membuat struktur direktori, pertama buat folder khusus yang nantinya akan berisi semua file2 frontend dan folder inilah yang akan menjadi working dir kita dengan nama apapun, disini misal saya menggunakan nama `client`:
+Oke, mari kita membuat struktur direktori, pertama buat folder khusus yang nantinya akan berisi semua file2 frontend dan folder inilah yang akan menjadi working dir kita nantinya, bisa dengan menggunakan nama apapun, disini misal saya menggunakan nama `client`:
 
 ``` bash
 mkdir client

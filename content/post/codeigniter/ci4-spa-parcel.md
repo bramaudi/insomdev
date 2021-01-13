@@ -25,6 +25,7 @@ Kemudian lanjut dengan instalasi bundler, disini saya menggunakan [parcel](https
 - Zero configuration
 - Auto polyfill[^polyfill]
 
+
 ``` bash
 npm i -D parcel-bundler
 ```

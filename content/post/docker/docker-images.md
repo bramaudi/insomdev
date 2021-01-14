@@ -3,7 +3,7 @@ title: "Docker: Images"
 date: 2020-05-05T07:57:30+07:00
 summary: "Perintah - perintah dasar untuk manajemen images didalam Docker."
 author: "bramaudi"
-tags: [docker]
+tags: [server]
 ---
 
 ## Apa itu images?

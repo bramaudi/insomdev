@@ -1,7 +1,7 @@
 ---
 title: "PHP: Curl"
 date: 2020-05-02T04:55:13+07:00
-summary: "Fungsi PHP untuk menghandle curl / mengunduh source code suatu website dengan PHP."
+summary: "PHP: Crawl / Scrapping Web."
 author: "bramaudi"
 tags: [php]
 ---

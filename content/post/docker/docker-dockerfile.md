@@ -3,7 +3,7 @@ title: "Docker: Dockerfile"
 date: 2020-05-06T08:56:16+07:00
 summary: "Mempelajari tentang cara membuat docker images / pengaturan Dockerfile."
 author: "bramaudi"
-tags: [docker]
+tags: [server]
 ---
 
 ## Apa itu Dockerfile?

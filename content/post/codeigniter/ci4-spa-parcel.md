@@ -1,9 +1,9 @@
 ---
-title: "Menambahkan Frontend semisal SPA pada projek CodeIgniter4"
+title: "CodeIgniter4: Menambahkan Frontend SPA"
 date: 2021-01-13T14:19:41+07:00
 summary: "Membuat frontend berupa Single Page Application dalam project CI4"
 author: "bramaudi"
-tags: [codeigniter]
+tags: [php, javascript]
 ---
 
 Dalam membuat frontend yang modern dan interaktif tentu kita harus berkerja menggunakan javascript, dengan CI4 kita hanya bisa membuat tampilan yang kurang interaktif karena mengandalkan php yang notabene adalah bahasa server-side, hanya memproses data lalu menampilkan dokumen halaman kepada browser, kita masih perlu menulis beberapa kode javascript untuk membuat interaksi antar muka yang interaktif, semisal popup, sidebar, dll.

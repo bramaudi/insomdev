@@ -3,7 +3,7 @@ title: "Docker: Container"
 date: 2020-05-06T08:17:09+07:00
 summary: "Cara membuat, menghapus, dan melihat daftar container didalam Docker."
 author: "bramaudi"
-tags: [docker]
+tags: [server]
 ---
 
 ## Apa itu container?

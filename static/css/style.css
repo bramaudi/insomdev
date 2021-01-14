@@ -195,14 +195,6 @@ aside ul {
 .tags {
   margin-top: .5rem;
 }
-.tags a {
-  display: inline-block;
-  margin: 0 .1rem .4rem 0;
-  padding: 0 .5rem;
-  text-decoration: none;
-  background: #5d4535;
-  color: #fff;
-}
 
 .pagination {
   display: flex;
@@ -251,6 +243,46 @@ aside ul {
 }
 .scrollup:hover {
   background: #9e816d;
+}
+
+ul [class*="tag-"]:hover {
+  margin-left: .5rem;
+}
+
+[class*="tag-"] {
+  transition: margin ease-in-out .1s;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 .3rem;
+  font-family: monospace;
+  font-weight: bold;
+  border: 1px solid black;
+  background: yellow;
+  color: black;
+}
+.tag-vue {
+  background: #2b9465;
+  color: #fff;
+}
+.tag-react {
+  background: #282c34;
+  color: #61dafb;
+}
+.tag-php {
+  background: #8892bf;
+}
+.tag-server {
+  background: #222;
+  color: #9ff1b8;
+  border-color: #222;
+}
+.tag.count {
+  padding: .1rem .3rem;
+  border-radius: 100%;
+  font-weight: bold;
+  font-size: small;
+  background: #7f4a24;
+  color: #fff;
 }
 
 footer {

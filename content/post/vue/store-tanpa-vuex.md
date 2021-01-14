@@ -3,7 +3,7 @@ title: "Vue: Store Tanpa Vuex"
 date: 2020-05-20T17:01:29+07:00
 summary: "State management Vue tanpa menggunakan Vuex"
 author: "bramaudi"
-tags: [javascript]
+tags: [javascript, vue]
 ---
 
 "Store" ini biasanya digunakan sebagai tempat penyimpanan state yang bisa diakses secara global, dan untuk Vue sendiri sudah memiliki **Vuex** sebagai state management resminya. Nah apakah bisa jika membuat tanpa *Vuex*? Jawaban: Ya, bisa banget namun kekuarangannya cuma tidak bisa kita debug melalui **Vue devtools**.

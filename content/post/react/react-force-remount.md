@@ -3,7 +3,7 @@ title: "React: Render Ulang / Remount Component"
 date: 2020-05-04T06:36:56+07:00
 summary: "Mempelajari bagaimana memaksa React untuk me-render ulang (remount) sebuah komponen tertentu."
 author: "bramaudi"
-tags: [javascript]
+tags: [javascript, react]
 ---
 
 Saya menemukan kasus unik disaat saya mencoba menggunakan **React** sebagai framework front-end untuk projek yang sedang saya garap, kronologi nya adalah ketika saya ingin memuat dan menampilkan sebuah angka pada komponen yang mana angka tersebut termuat secara asinkron (*lazy load*).

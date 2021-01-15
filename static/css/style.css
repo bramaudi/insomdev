@@ -264,6 +264,10 @@ ul [class*="tag-"]:hover {
   background: #2b9465;
   color: #fff;
 }
+.tag-css {
+  background: #2862e9;
+  color: #fff;
+}
 .tag-react {
   background: #282c34;
   color: #61dafb;
@@ -272,6 +276,10 @@ ul [class*="tag-"]:hover {
   background: #8892bf;
 }
 .tag-server {
+  background: #dddddd;
+  color: #222;
+}
+.tag-nodejs {
   background: #222;
   color: #9ff1b8;
   border-color: #222;

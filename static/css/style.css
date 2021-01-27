@@ -125,6 +125,13 @@ pre {
   border: .2rem solid #7f4a24;
 }
 
+.codepen {
+  border: .2rem solid #7f4a24;
+}
+.codepen > * {
+  margin-top: -1px;
+}
+
 :not(pre) > code {
   white-space: nowrap;
   display: inline-block;

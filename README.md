@@ -1,23 +1,9 @@
-# Insomania
+# insomdev
 
-Insomania — just another [Hugo](https://gohugo.io/) theme for developers.
+> InsomeDev Blog, mending nulis saat gak bisa tidur
 
-## Installation
+Blog personal seorang programmer.
 
-In your Hugo site `themes` directory, run:
+Website: [https://insomdev.my.id](https://insomdev.my.id)
 
-```
-git clone https://github.com/bramaudi/insomania
-```
-
-Next, open `config.toml` in the base of the Hugo site and ensure the theme option is set to `insomania`.
-
-```
-theme = "insomania"
-```
-
-For more information read the official [quick start guide](https://gohugo.io/getting-started/quick-start/) of Hugo.
-
-## License
-
-This theme is released under the [MIT license](https://github.com/bramaudi/insomania/blob/master/LICENSE).
+[MIT license](https://github.com/bramaudi/insomdev/blob/master/LICENSE).

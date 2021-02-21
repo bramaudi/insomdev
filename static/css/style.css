@@ -291,6 +291,9 @@ ul [class*="tag-"]:hover {
   color: #9ff1b8;
   border-color: #222;
 }
+.tag-algoritma {
+  background: navajowhite;
+}
 .tag.count {
   padding: .1rem .3rem;
   border-radius: 100%;

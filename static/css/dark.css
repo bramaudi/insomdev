@@ -1,0 +1,81 @@
+body.dark,
+.dark main,
+.dark .summaries article,
+.dark article.single {
+  background: #222;
+  color: #ddd;
+}
+
+.dark a { color: wheat }
+
+.dark header {
+  border-top: .5rem solid wheat;
+  border-bottom: 2px dashed navajowhite;
+}
+
+.dark .summaries article,
+.dark article.single,
+.dark aside h3,
+.dark .pagination .prev a,
+.dark .pagination .next a {
+  border: .1rem solid wheat;
+  box-shadow: .2rem .2rem 0 navajowhite;
+}
+
+.dark article time {
+  color: #aaa;
+}
+
+.dark .pagination,
+.dark main {
+  background: #2b2b2b;
+}
+.dark .pagination .prev a,
+.dark .pagination .next a {
+  background: #222;
+}
+
+.dark .scrollup {
+  background: wheat;
+  color: #333;
+  box-shadow: .2rem .2rem 0 rgba(50, 50, 50, 0.5);
+}
+.dark .scrollup:hover { background: navajowhite;}
+
+.dark [class*="tag-"] { color: #333 }
+.dark .tag.count {
+  background: wheat;
+  color: #333;
+}
+.dark .tag-react { color: #61dafb }
+.dark .tag-nodejs { color: #9ff1b8 }
+.dark .tag-vue,
+.dark .tag-css { color: #fff }
+
+.dark aside,
+.dark pre,
+.dark .codepen,
+.dark .sub h3,
+.dark footer {
+  border-color: wheat;
+}
+
+.dark strong { color: #fff }
+.dark em { color: #bbb }
+
+.dark :not(pre) > code,
+.dark blockquote {
+  background: #555;
+  border-color: #aaa;
+}
+
+.dark th,
+.dark td {
+  background: #555;
+}
+.dark td {
+  background: unset;
+}
+.dark tr:nth-child(even) {
+  background: #444;
+}

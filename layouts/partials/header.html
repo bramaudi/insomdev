@@ -7,6 +7,9 @@
 			{{ range . }}
 			<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
 			{{ end }}
+			<li>
+				<button onclick="toggleTheme()" id="theme_switcher">Theme</button>
+			</li>
 		</ul>
 	</nav>
 	{{ end }}
